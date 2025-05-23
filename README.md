@@ -26,18 +26,31 @@
     Unzip and structure it like this in your Google Drive:
 
 /MyDrive/
+
 └── Data/
+
     └── grocery_yolov8/
+    
         ├── train/
+        
         │   ├── images/
+        
         │   └── labels/
+        
         ├── valid/
+        
         │   ├── images/
+        
         │   └── labels/
+        
         ├── test/
+        
         │   ├── images/
+        
         │   └── labels/
+        
         └── grocery_yolov8/
+        
             └── data.yaml
 
 The data.yaml file should look like:
